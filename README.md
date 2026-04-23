@@ -87,7 +87,7 @@
           <img src="https://img.shields.io/badge/🎮_PLAY_DEMO-READ_THE_BLOG-orange?style=for-the-badge&logo=blogger&logoColor=white" />
         </a>
       </td>
-      
+ .      
       <!-- Demo 3: Esports Blog -->
       <td align="center" width="33%">
         <a href="YOUR_ESPORTS_BLOG_LINK" target="_blank">

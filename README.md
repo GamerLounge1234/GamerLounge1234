@@ -76,7 +76,7 @@
     <tr>
       <!-- Dead by Daylight Fan Made -->
       <td align="center" width="33%">
-        <a href="https://deadbydaylight-fan.site" target="_blank">
+        <a href="https://dead-by-daylight-fan-made.vercel.app" target="_blank">
         </a>
         <br />
         <br />
@@ -99,7 +99,7 @@
         <br />
         <br />
         <p align="center">
-          <a href="https://rodygamer.blog" target="_blank">
+          <a href="https://rody-gamer-1.onrender.com" target="_blank">
             <img src="https://img.shields.io/badge/RODY_GAMER-BLOG-%2300FFCC?style=for-the-badge&logo=blogger&logoColor=black" />
           </a>
         </p>

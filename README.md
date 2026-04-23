@@ -1,180 +1,266 @@
-<!-- ──────────────────────────────────────────────
-   ⚡ PRO GAMING & ESPORTS WEB DEVELOPER README
-   Built with pure HTML/CSS/JS – Game UI Style
-────────────────────────────────────────────── -->
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=35&duration=1500&pause=500&color=00F7FF&center=true&vCenter=true&width=600&lines=GAME+OVER?+NO.+LEVEL+UP.;FULL-STACK+WEB+DEVELOPER;GAMING+%26+ESPORTS+SPECIALIST;BUILDING+IMMERSIVE+DIGITAL+WORLDS" alt="Typing SVG" />
+</h1>
+
 <div align="center">
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-success?style=for-the-badge&logo=appveyor" />
+  <img src="https://img.shields.io/badge/ROLE-WEB%20DEVELOPER-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SPECIALTY-GAMING%20%26%20ESPORTS-orange?style=for-the-badge&logo=riot-games&logoColor=white" />
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=800&color=FF4655&center=true&vCenter=true&width=800&lines=GG+%7C+Welcome+to+my+profile;I+build+elite+gaming+%2B+esports+sites;Pure+HTML+%7C+CSS+%7C+JavaScript;Cinematic+UI+%2F+Dark+Theme+%2F+Game+Feel" alt="Typing SVG" />
+<br />
 
-<br><br>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=blueviolet" alt="Profile views" />
+</div>
 
-<!-- Player Card Hover Glow -->
-<div style="
-  background: linear-gradient(145deg, #0b0e14 0%, #141a24 100%);
-  border: 2px solid #ff4655;
-  border-radius: 22px;
-  padding: 28px 38px;
-  margin: 20px auto;
-  max-width: 720px;
-  box-shadow: 0 0 25px rgba(255,70,85,0.25), inset 0 0 18px rgba(0,0,0,0.6);
-  transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
-  position: relative;
-  overflow: hidden;
-"
-  onmouseover="this.style.boxShadow='0 0 48px #ff4655aa, inset 0 0 28px #000000cc'; this.style.borderColor='#ffffff'"
-  onmouseout="this.style.boxShadow='0 0 25px rgba(255,70,85,0.25), inset 0 0 18px rgba(0,0,0,0.6)'; this.style.borderColor='#ff4655'"
->
-  <!-- animated scanline overlay -->
-  <div style="
-    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-    background: repeating-linear-gradient(0deg, #ffffff03 0px, #ffffff08 2px, transparent 3px, transparent 5px);
-    pointer-events: none;
-  "></div>
+<br />
+<br />
 
-  <h1 style="font-size: 3rem; margin: 0; color: #fff; letter-spacing: 3px; text-shadow: 0 0 12px #ff4655cc;">
-    <span style="color:#ff4655;">▶</span> VENOM<span style="color:#ff4655;">_</span>DEV
-  </h1>
-  <p style="font-family: 'Courier New', monospace; color: #a0b0c0; font-size: 1.1rem; margin-top: 6px; letter-spacing: 2px;">
-    // GAMING • ESPORTS • INTERACTIVE EXPERIENCES
-  </p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+</div>
 
-  <!-- Stats / badges with game aesthetic -->
-  <div style="display: flex; justify-content: center; gap: 24px; margin: 22px 0 10px; flex-wrap: wrap;">
-    <span style="background:#ff465522; border:1px solid #ff4655; padding:6px 20px; border-radius:30px; color:#ffb3b3; font-weight:bold;">
-      🎮 27+ PROJECTS
-    </span>
-    <span style="background:#00d4ff22; border:1px solid #00d4ff; padding:6px 20px; border-radius:30px; color:#a0e9ff; font-weight:bold;">
-      ⚡ ESPORTS FOCUS
-    </span>
-    <span style="background:#f0b90b22; border:1px solid #f0b90b; padding:6px 20px; border-radius:30px; color:#ffe484; font-weight:bold;">
-      🕹️ GAME UI SPECIALIST
-    </span>
-  </div>
+<br />
 
-  <p style="color: #b6c8df; max-width: 580px; margin: 18px auto 0; font-size: 0.98rem; line-height: 1.6;">
-    I craft immersive web experiences that feel like a AAA game menu — cinematic themes, pixel-perfect animations,
-    and performance-driven UI. Every line of code is optimized for engagement, inspired by game design principles and esports culture.
+<div align="center">
+  <h2>
+    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30" />
+    TECH TREE & MASTERY
+    <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30" />
+  </h2>
+</div>
+
+<div align="center">
+  <p>
+    <i>Forging digital realms with the foundational trinity of the web. No frameworks, pure elemental power.</i>
   </p>
 </div>
 
-<!-- ⚙️ TECH TREE / SKILL LOADOUT -->
-<br>
-<h2 style="color: #fff; text-shadow: 0 0 9px #00d4ff; letter-spacing: 2px;">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Joystick.png" alt="Joystick" width="34" /> TECH LOADOUT
-</h2>
-
-<div style="
-  background: #0b0e14cc; border: 2px solid #00d4ff44; border-radius: 18px;
-  padding: 24px 20px; margin: 12px auto; max-width: 600px;
-  backdrop-filter: blur(8px); display: flex; flex-wrap: wrap; justify-content: center; gap: 18px;
-">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=101010" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=101010" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=101010" />
-  <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white&labelColor=101010" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=101010" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=101010" />
-  <br>
-  <span style="color:#a0b0c0; width:100%; text-align:center; font-size:0.88rem; margin-top:6px;">
-    ⚡ premium CSS animations • 60fps smooth motion • cinematic parallax • game UI patterns
-  </span>
+<div align="center">
+  <br />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" height="40" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" height="40" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" height="40" />
+  <br />
+  <br />
+  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80" />
+  <br />
+  <i>Because true masters need no libraries to paint with light.</i>
 </div>
 
-<!-- 🕹️ DEMO SHOWCASE (GAMING STYLE) -->
-<br>
-<h2 style="color: #fff; text-shadow: 0 0 11px #f0b90b; letter-spacing: 2px;">
-  🏆 FEATURED DEMOS — LIVE SITES
-</h2>
-<p style="color:#99aabb; margin-top:-6px;">click to drop into the lobby</p>
+<br />
+<br />
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 28px; margin-top: 20px;">
-
-  <!-- Dead by Daylight fan site -->
-  <a href="https://dbd-fanmade-demo.netlify.app" target="_blank" style="text-decoration:none;">
-    <div style="
-      width: 240px; background: #0d1117; border: 2px solid #ff4655; border-radius: 20px;
-      padding: 20px 12px; transition: 0.3s; box-shadow: 0 4px 18px #ff465533;
-    " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 16px 35px #ff4655cc'"
-       onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 18px #ff465533'">
-      <img src="https://img.icons8.com/fluency/96/dead-by-daylight.png" width="68" alt="dbd" style="filter: drop-shadow(0 0 8px red);" />
-      <h3 style="color:#fff; margin:12px 0 4px; font-size:1.3rem;">DEAD BY DAYLIGHT</h3>
-      <p style="color:#b0bec5; font-size:0.8rem; margin:0;">Fan-made killer/survivor hub · dark fog UI · real game assets style</p>
-      <span style="display:inline-block; margin-top:14px; background:#ff465522; color:#ffb3b3; padding:5px 20px; border-radius:20px; font-weight:bold;">▶ PLAY DEMO</span>
-    </div>
-  </a>
-
-  <!-- Rody Gamer Blog -->
-  <a href="https://rody-gamer-blog.netlify.app" target="_blank" style="text-decoration:none;">
-    <div style="
-      width: 240px; background: #0d1117; border: 2px solid #00d4ff; border-radius: 20px;
-      padding: 20px 12px; transition: 0.3s; box-shadow: 0 4px 18px #00d4ff33;
-    " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 16px 35px #00d4ffcc'"
-       onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 18px #00d4ff33'">
-      <img src="https://img.icons8.com/color/96/blogger.png" width="68" alt="blog" style="filter: drop-shadow(0 0 8px cyan);" />
-      <h3 style="color:#fff; margin:12px 0 4px; font-size:1.3rem;">RODY GAMER BLOG</h3>
-      <p style="color:#b0bec5; font-size:0.8rem; margin:0;">Neon cyberpunk blog · review cards · animated loot-box style</p>
-      <span style="display:inline-block; margin-top:14px; background:#00d4ff22; color:#a0e9ff; padding:5px 20px; border-radius:20px; font-weight:bold;">▶ READ BLOG</span>
-    </div>
-  </a>
-
-  <!-- Esports blog -->
-  <a href="https://esports-arena-blog.netlify.app" target="_blank" style="text-decoration:none;">
-    <div style="
-      width: 240px; background: #0d1117; border: 2px solid #f0b90b; border-radius: 20px;
-      padding: 20px 12px; transition: 0.3s; box-shadow: 0 4px 18px #f0b90b33;
-    " onmouseover="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 16px 35px #f0b90bcc'"
-       onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 18px #f0b90b33'">
-      <img src="https://img.icons8.com/color/96/trophy--v1.png" width="68" alt="esports" style="filter: drop-shadow(0 0 8px gold);" />
-      <h3 style="color:#fff; margin:12px 0 4px; font-size:1.3rem;">ESPORTS ARENA BLOG</h3>
-      <p style="color:#b0bec5; font-size:0.8rem; margin:0;">Tournament brackets · live scores · pro player profiles</p>
-      <span style="display:inline-block; margin-top:14px; background:#f0b90b22; color:#ffe484; padding:5px 20px; border-radius:20px; font-weight:bold;">▶ VIEW SITE</span>
-    </div>
-  </a>
-
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
 </div>
 
-<!-- small note links real demo placeholder (replace with your real URLs) -->
-<p style="color:#555; font-size:0.7rem; margin-top:12px;">
-  ⚡ demo links above · replace with your actual Netlify/Vercel/GitHub Pages URLs
-</p>
+<br />
 
-<!-- ANIMATED STATS / GAME ACHIEVEMENTS -->
-<br>
-<h2 style="color: #fff; text-shadow: 0 0 9px #ff00aa;">🏅 ACHIEVEMENTS UNLOCKED</h2>
-<div style="display: flex; gap: 18px; justify-content: center; flex-wrap: wrap; margin-top: 14px;">
-  <img src="https://github-profile-trophy.vercel.app/?username=venomdev&theme=onestar&no-frame=true&margin-w=10&row=1&column=4" alt="trophies" />
-</div>
-
-<!-- GAME-LIKE PROGRESS BAR (anim pure CSS) -->
-<br>
-<div style="max-width:560px; margin: 0 auto; background:#0b0e14; border-radius:20px; padding:16px 22px; border:1px solid #ffffff22;">
-  <p style="color:#ddd; text-align:left; margin:0 0 6px;">🎯 PROJECTS COMPLETED <span style="float:right; color:#ff4655;">92%</span></p>
-  <div style="background:#2a2e38; height:10px; border-radius:10px; overflow:hidden;">
-    <div style="background: linear-gradient(90deg, #ff4655, #ff8c5a); width:92%; height:100%; border-radius:10px; box-shadow: 0 0 15px #ff4655aa; animation: pulseBar 1.5s infinite;"></div>
-  </div>
-  <style>@keyframes pulseBar{0%{opacity:0.9;}50%{opacity:1; box-shadow:0 0 25px #ff4655;}100%{opacity:0.9;}}</style>
-</div>
-
-<br>
-
-<!-- CONTACT / JOIN PARTY -->
-<div style="
-  background:#141a24; border:2px solid #ff4655; border-radius:60px; padding:12px 28px;
-  display:inline-block; margin:24px auto 10px;
-">
-  <p style="margin:0; color:#fff; font-weight:bold; letter-spacing:1px;">
-    💬 WANT TO SQUAD UP? <a href="mailto:venom.dev@esports.com" style="color:#ff8c5a; text-decoration:none;">venom.dev@esports.com</a>
+<div align="center">
+  <h2>
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35" />
+    FEATURED QUESTS (LIVE DEMOS)
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35" />
+  </h2>
+  <p>
+    <i>Click to explore. Each site is a boss fight won.</i>
   </p>
 </div>
 
-<br>
-<img src="https://komarev.com/ghpvc/?username=venomdev&color=ff4655&style=flat-square&label=LOBBY+VISITS" alt="visits" />
+<br />
 
-<!-- footer glitch style -->
-<p style="color:#3a404a; font-size:0.75rem; margin-top:18px;">
-  ═══════════════════════════<br>
-  <span style="color:#ff4655;">「 PRESS START TO BEGIN 」</span><br>
-  ═══════════════════════════
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <!-- Dead by Daylight Fan Made -->
+      <td align="center" width="33%">
+        <a href="https://deadbydaylight-fan.site" target="_blank">
+          <img src="https://wallpapercave.com/wp/wp9549423.jpg" alt="DBD Fan Site" width="90%" style="border-radius: 15px; border: 2px solid #ff0000; box-shadow: 0 0 25px #ff0000;" />
+        </a>
+        <br />
+        <br />
+        <p align="center">
+          <a href="https://deadbydaylight-fan.site" target="_blank">
+            <img src="https://img.shields.io/badge/DEAD_BY_DAYLIGHT-FAN_MADE-%23FF0000?style=for-the-badge&logo=steam&logoColor=white" />
+          </a>
+        </p>
+        <p align="center">
+          <i>A tribute to the fog. Killer aesthetics, survivor info, and perk builder crafted with dark, immersive design.</i>
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/STATUS-LIVE-success?style=for-the-badge" />
+        </p>
+      </td>
+      <!-- Rody Gamer Blog -->
+      <td align="center" width="33%">
+        <a href="https://rodygamer.blog" target="_blank">
+          <img src="https://wallpapercave.com/wp/wp9326545.jpg" alt="Rody Gamer Blog" width="90%" style="border-radius: 15px; border: 2px solid #00ffcc; box-shadow: 0 0 25px #00ffcc;" />
+        </a>
+        <br />
+        <br />
+        <p align="center">
+          <a href="https://rodygamer.blog" target="_blank">
+            <img src="https://img.shields.io/badge/RODY_GAMER-BLOG-%2300FFCC?style=for-the-badge&logo=blogger&logoColor=black" />
+          </a>
+        </p>
+        <p align="center">
+          <i>A high-octane personal gaming hub. Reviews, walkthroughs, and neon-soaked UI built for a content creator.</i>
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/STATUS-LIVE-success?style=for-the-badge" />
+        </p>
+      </td>
+      <!-- Esports Blog -->
+      <td align="center" width="33%">
+        <a href="https://esportsinsider.blog" target="_blank">
+          <img src="https://wallpapercave.com/wp/wp10895887.jpg" alt="Esports Blog" width="90%" style="border-radius: 15px; border: 2px solid #ffaa00; box-shadow: 0 0 25px #ffaa00;" />
+        </a>
+        <br />
+        <br />
+        <p align="center">
+          <a href="https://esportsinsider.blog" target="_blank">
+            <img src="https://img.shields.io/badge/ESPORTS-INSIDER_BLOG-%23FFAA00?style=for-the-badge&logo=eslgaming&logoColor=black" />
+          </a>
+        </p>
+        <p align="center">
+          <i>Competitive edge. Tournament coverage, team stats, and a dynamic news feed for the global esports arena.</i>
+        </p>
+        <p align="center">
+          <img src="https://img.shields.io/badge/STATUS-LIVE-success?style=for-the-badge" />
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
 
+<br />
+<br />
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+</div>
+
+<br />
+
+<div align="center">
+  <h2>
+    <img src="https://media.giphy.com/media/LMcBstXospJDeE6rxM/giphy.gif" width="30" />
+    CORE SKILLS & POWER-UPS
+    <img src="https://media.giphy.com/media/LMcBstXospJDeE6rxM/giphy.gif" width="30" />
+  </h2>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="200">
+        <img src="https://user-images.githubusercontent.com/74038190/212280823-79088828-a258-4a4d-8d6c-96315d5a07af.gif" width="80" />
+        <br />
+        <strong>RESPONSIVE DESIGN</strong>
+        <br />
+        <sub>Flawless on all screens.</sub>
+      </td>
+      <td align="center" width="200">
+        <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="80" />
+        <br />
+        <strong>ANIMATIONS</strong>
+        <br />
+        <sub>CSS Keyframe Mastery.</sub>
+      </td>
+      <td align="center" width="200">
+        <img src="https://user-images.githubusercontent.com/74038190/212257465-7ce8d493-cac5-494e-982a-5a9deb852c4b.gif" width="80" />
+        <br />
+        <strong>UI/UX</strong>
+        <br />
+        <sub>Immersive Game-like UI.</sub>
+      </td>
+      <td align="center" width="200">
+        <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-0edc-4bf8-a5ee-7e8e7c5bca12.gif" width="80" />
+        <br />
+        <strong>PERFORMANCE</strong>
+        <br />
+        <sub>Clean Vanilla JS.</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+<br />
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+</div>
+
+<br />
+
+<div align="center">
+  <h2>
+    <img src="https://media.giphy.com/media/hpXdHPfFI5wTABd1xV/giphy.gif" width="30" />
+    CURRENT MISSION
+    <img src="https://media.giphy.com/media/hpXdHPfFI5wTABd1xV/giphy.gif" width="30" />
+  </h2>
+</div>
+
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_GITHUB_USERNAME&theme=highcontrast&hide_border=true&background=0D1117&stroke=00F7FF&ring=FF0000&fire=FFAA00&currStreakLabel=00F7FF" alt="GitHub Streak" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7FF&icon_color=FF0000" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F7FF" width="38%" />
+</div>
+
+<br />
+<br />
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%">
+</div>
+
+<br />
+
+<div align="center">
+  <h2>
+    <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="25" />
+    READY TO RAID?
+    <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="25" />
+  </h2>
+</div>
+
+<div align="center">
+  <a href="mailto:your.email@example.com">
+    <img src="https://img.shields.io/badge/SEND_QUEST-EMAIL-%23FF0000?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://discord.gg/yourserver">
+    <img src="https://img.shields.io/badge/JOIN_PARTY-DISCORD-%237289DA?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
+  <a href="https://twitter.com/yourhandle">
+    <img src="https://img.shields.io/badge/LOOT-TWITTER-%231DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+</div>
+
+<br />
+<br />
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" />
+</div>
+
+<br />
+
+<div align="center">
+  <p>
+    <i>Crafting legendary web experiences. One boss fight at a time.</i>
+  </p>
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00F7FF&height=120&section=footer" width="100%"/>
 </div>

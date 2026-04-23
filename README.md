@@ -81,7 +81,7 @@
         <br />
         <br />
         <p align="center">
-          <a href="https://deadbydaylight-fan.site" target="_blank">
+          <a href="https://dead-by-daylight-fan-made.vercel.app" target="_blank">
             <img src="https://img.shields.io/badge/DEAD_BY_DAYLIGHT-FAN_MADE-%23FF0000?style=for-the-badge&logo=steam&logoColor=white" />
           </a>
         </p>
@@ -94,7 +94,7 @@
       </td>
       <!-- Rody Gamer Blog -->
       <td align="center" width="33%">
-        <a href="https://rodygamer.blog" target="_blank">
+        <a href="https://rody-gamer-1.onrender.com" target="_blank">
         </a>
         <br />
         <br />
@@ -112,7 +112,7 @@
       </td>
       <!-- Esports Blog -->
       <td align="center" width="33%">
-        <a href="https://esportsinsider.blog" target="_blank">
+        <a href="https://esports-new.onrender.com" target="_blank">
         </a>
         <br />
         <br />

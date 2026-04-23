@@ -77,7 +77,6 @@
       <!-- Dead by Daylight Fan Made -->
       <td align="center" width="33%">
         <a href="https://deadbydaylight-fan.site" target="_blank">
-          <img src="https://wallpapercave.com/wp/wp9549423.jpg" alt="DBD Fan Site" width="90%" style="border-radius: 15px; border: 2px solid #ff0000; box-shadow: 0 0 25px #ff0000;" />
         </a>
         <br />
         <br />
@@ -96,7 +95,6 @@
       <!-- Rody Gamer Blog -->
       <td align="center" width="33%">
         <a href="https://rodygamer.blog" target="_blank">
-          <img src="https://wallpapercave.com/wp/wp9326545.jpg" alt="Rody Gamer Blog" width="90%" style="border-radius: 15px; border: 2px solid #00ffcc; box-shadow: 0 0 25px #00ffcc;" />
         </a>
         <br />
         <br />
@@ -115,7 +113,6 @@
       <!-- Esports Blog -->
       <td align="center" width="33%">
         <a href="https://esportsinsider.blog" target="_blank">
-          <img src="https://wallpapercave.com/wp/wp10895887.jpg" alt="Esports Blog" width="90%" style="border-radius: 15px; border: 2px solid #ffaa00; box-shadow: 0 0 25px #ffaa00;" />
         </a>
         <br />
         <br />

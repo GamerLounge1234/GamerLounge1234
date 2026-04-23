@@ -1,413 +1,200 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>🎮 WebDev | Gaming & Esports | GitHub Profile README</title>
-  <!-- Font Awesome 6 for professional icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<!-- 
+  ⚔️ PREMIUM GAMING & ESPORTS DEV PROFILE ⚔️
+  Designed for: Web Developer specializing in Gaming & Esports
+  Demos: Dead by Daylight Fan Site | Rody Gamer Blog | Esports Blog
+  Note: Replace placeholder links & images with your own.
+-->
 
-    body {
-      background: #0a0c0f;
-      font-family: 'Segoe UI', 'Poppins', system-ui, -apple-system, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 2rem;
-      background-image: radial-gradient(circle at 20% 10%, #1e2a3a 0%, #030507 90%);
-      position: relative;
-      overflow-x: hidden;
-    }
+<div align="center">
+  
+  <!-- Animated Glitch Header -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=40&duration=3000&pause=500&color=FF4444&center=true&vCenter=true&width=800&height=100&lines=SYSTEM+ONLINE;CREATING+GAMING+EXPERIENCES;BUILDING+THE+FUTURE+OF+ESPORTS;PLAY.+CODE.+DOMINATE." alt="Typing SVG" />
+  </a>
 
-    /* subtle animated grid overlay (game feel) */
-    body::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-image: 
-        linear-gradient(rgba(0, 255, 196, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 255, 196, 0.03) 1px, transparent 1px);
-      background-size: 50px 50px;
-      pointer-events: none;
-      animation: gridPulse 8s infinite alternate ease-in-out;
-    }
+  <!-- Animated Pixel Divider -->
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-    @keyframes gridPulse {
-      0% { opacity: 0.3; }
-      100% { opacity: 0.7; }
-    }
+  <!-- Profile Badges & Stats (Gaming Theme) -->
+  <p>
+    <img src="https://img.shields.io/badge/MISSION-Developing%20Next%20Gen%20Gaming%20Websites-red?style=for-the-badge&logo=acaademia&logoColor=white" />
+    <img src="https://img.shields.io/badge/STATUS-In%20The%20Matrix-brightgreen?style=for-the-badge&logo=matrix&logoColor=white" />
+    <img src="https://img.shields.io/badge/FPS-Unlimited-important?style=for-the-badge&logo=imdb&logoColor=white" />
+  </p>
 
-    .profile-card {
-      max-width: 1000px;
-      width: 100%;
-      background: rgba(10, 15, 22, 0.8);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border: 1px solid rgba(0, 255, 200, 0.25);
-      border-radius: 3rem 1rem 3rem 1rem;
-      box-shadow: 0 30px 50px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(0, 255, 200, 0.15), 0 0 30px rgba(0, 180, 216, 0.5);
-      padding: 2.5rem 2.2rem;
-      position: relative;
-      z-index: 10;
-      transition: all 0.3s ease;
-      color: #e0f2fe;
-      animation: floatCard 6s infinite ease-in-out;
-    }
+  <!-- Health & Mana Bars (Purely Visual) -->
+  <p>
+    <img src="https://progress-bar.dev/95/?title=HTML5%20Mastery&width=300&color=b91d47&bgColor=2d2d2d" />
+    <img src="https://progress-bar.dev/90/?title=CSS3%20Animations&width=300&color=ff5722&bgColor=2d2d2d" />
+    <img src="https://progress-bar.dev/85/?title=JavaScript%20Engine&width=300&color=f7df1e&bgColor=2d2d2d" />
+  </p>
+  
+  <p>
+    <img src="https://progress-bar.dev/80/?title=React%20Components&width=300&color=61dafb&bgColor=2d2d2d" />
+    <img src="https://progress-bar.dev/75/?title=Esports%20API%20Integration&width=300&color=9146FF&bgColor=2d2d2d" />
+    <img src="https://progress-bar.dev/99/?title=Passion%20for%20Gaming&width=300&color=red&bgColor=2d2d2d" />
+  </p>
 
-    @keyframes floatCard {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-      100% { transform: translateY(0px); }
-    }
+  <br />
 
-    /* neon corner accents */
-    .profile-card::after {
-      content: "";
-      position: absolute;
-      top: -2px;
-      left: -2px;
-      right: -2px;
-      bottom: -2px;
-      background: linear-gradient(45deg, #00f2fe, #4facfe, #00e5ff, #1effbc);
-      z-index: -1;
-      border-radius: 3.2rem 1.2rem 3.2rem 1.2rem;
-      opacity: 0.4;
-      filter: blur(10px);
-      animation: borderGlow 4s linear infinite;
-    }
+  <!-- Explosion Divider -->
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-    @keyframes borderGlow {
-      0% { opacity: 0.3; filter: blur(8px); }
-      50% { opacity: 0.7; filter: blur(14px); }
-      100% { opacity: 0.3; filter: blur(8px); }
-    }
+  <!-- === CHARACTER SELECT SCREEN (PROJECT SHOWCASE) === -->
+  <h2>
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> 
+    SELECT YOUR EXPERIENCE 
+    <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50">
+  </h2>
 
-    /* header section with game-like title */
-    .header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      margin-bottom: 2.5rem;
-      border-bottom: 2px solid rgba(0, 255, 200, 0.4);
-      padding-bottom: 1.5rem;
-    }
+  <table>
+    <tr>
+      <!-- Demo 1: Dead by Daylight -->
+      <td align="center" width="33%">
+        <a href="YOUR_DEAD_BY_DAYLIGHT_DEMO_LINK" target="_blank">
+          <img src="https://i.imgur.com/placeholder_dbd.png" width="300" style="border: 2px solid #ff0000; border-radius: 15px; box-shadow: 0 0 20px #ff0000;" />
+        </a>
+        <br />
+        <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=2000&pause=500&color=ff0000&center=true&vCenter=true&width=300&height=30&lines=Dead+by+Daylight+Fan+Site" alt="Typing SVG" />
+        <br />
+        <p>
+          <img src="https://img.shields.io/badge/GENRE-Horror_Survival-darkred?style=flat-square&logo=ghostery&logoColor=white" />
+          <img src="https://img.shields.io/badge/TECH-React_|_Node.js-black?style=flat-square&logo=react" />
+        </p>
+        <p align="left">
+          A dark, immersive fan-made hub for DBD enthusiasts. Features real-time killer/survivor stats tracking, interactive perk builders, and a fog-shrouded dark mode UI. Built with a horror aesthetic using custom WebGL fog effects.
+        </p>
+        <a href="YOUR_DEAD_BY_DAYLIGHT_DEMO_LINK" target="_blank">
+          <img src="https://img.shields.io/badge/🎮_PLAY_DEMO-ENTER_THE_FOG-red?style=for-the-badge&logo=ghostery&logoColor=white" />
+        </a>
+      </td>
+      
+      <!-- Demo 2: Rody Gamer Blog -->
+      <td align="center" width="33%">
+        <a href="YOUR_RODY_GAMER_BLOG_LINK" target="_blank">
+          <img src="https://i.imgur.com/placeholder_rody.png" width="300" style="border: 2px solid #ff7700; border-radius: 15px; box-shadow: 0 0 20px #ff7700;" />
+        </a>
+        <br />
+        <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=2000&pause=500&color=ff7700&center=true&vCenter=true&width=300&height=30&lines=Rody+Gamer+Blog" alt="Typing SVG" />
+        <br />
+        <p>
+          <img src="https://img.shields.io/badge/GENRE-Gaming_Lifestyle-orange?style=flat-square&logo=blogger&logoColor=white" />
+          <img src="https://img.shields.io/badge/TECH-Next.js_|_GraphCMS-black?style=flat-square&logo=next.js" />
+        </p>
+        <p align="left">
+          A blazing-fast, neon-lit gaming blog and review platform. Showcasing dynamic content management, 3D card hover effects for game reviews, and seamless navigation. Fully optimized for SEO and mobile-first gaming news consumption.
+        </p>
+        <a href="YOUR_RODY_GAMER_BLOG_LINK" target="_blank">
+          <img src="https://img.shields.io/badge/🎮_PLAY_DEMO-READ_THE_BLOG-orange?style=for-the-badge&logo=blogger&logoColor=white" />
+        </a>
+      </td>
+      
+      <!-- Demo 3: Esports Blog -->
+      <td align="center" width="33%">
+        <a href="YOUR_ESPORTS_BLOG_LINK" target="_blank">
+          <img src="https://i.imgur.com/placeholder_esports.png" width="300" style="border: 2px solid #00ffff; border-radius: 15px; box-shadow: 0 0 20px #00ffff;" />
+        </a>
+        <br />
+        <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=12&duration=2000&pause=500&color=00ffff&center=true&vCenter=true&width=300&height=30&lines=Esports+Blog" alt="Typing SVG" />
+        <br />
+        <p>
+          <img src="https://img.shields.io/badge/GENRE-Competitive_Gaming-cyan?style=flat-square&logo=eslgaming&logoColor=white" />
+          <img src="https://img.shields.io/badge/TECH-Vue.js_|_Firebase-black?style=flat-square&logo=vue.js" />
+        </p>
+        <p align="left">
+          The ultimate competitive gaming dashboard. Features live tournament tracking, player statistics, match schedules, and real-time Twitch stream embeds. Designed with a cyberpunk esports arena vibe using animated grid backgrounds.
+        </p>
+        <a href="YOUR_ESPORTS_BLOG_LINK" target="_blank">
+          <img src="https://img.shields.io/badge/🎮_PLAY_DEMO-ENTER_ARENA-cyan?style=for-the-badge&logo=eslgaming&logoColor=white" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
-    .level-badge {
-      background: #111c2b;
-      padding: 0.5rem 1.5rem;
-      border-radius: 3rem;
-      font-weight: 700;
-      font-size: 1.2rem;
-      letter-spacing: 2px;
-      color: #00f2fe;
-      text-shadow: 0 0 8px #00e5ff;
-      border: 1px solid #2dd4bf;
-      box-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-    }
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
 
-    .title h1 {
-      font-size: 2.8rem;
-      font-weight: 800;
-      background: linear-gradient(to right, #a5f3fc, #67e8f9, #22d3ee);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      text-shadow: 0 0 25px #06b6d4;
-      letter-spacing: 1px;
-    }
+  <!-- === ACHIEVEMENTS & STATS === -->
+  <h2>
+    <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="50">
+    PLAYER STATS
+    <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="50">
+  </h2>
 
-    .subtitle {
-      color: #9ca3af;
-      font-size: 1.1rem;
-      display: flex;
-      align-items: center;
-      gap: 0.7rem;
-      margin-top: 0.3rem;
-    }
+  <p>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0D1117&stroke=FF4444&ring=FF4444&fire=FF4444&currStreakLabel=FF4444" />
+  </p>
+  
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=vision-friendly-dark&hide_border=true&bg_color=0D1117&title_color=FF4444&text_color=ffffff" />
+  </p>
 
-    .stats-grid {
-      display: flex;
-      gap: 2rem;
-      flex-wrap: wrap;
-      margin: 2rem 0 1.8rem;
-    }
+  <!-- GITHUB TROPHIES -->
+  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=radical&no-frame=true&row=1&column=6&margin-w=15&margin-h=15" />
 
-    .stat-item {
-      background: rgba(0, 20, 30, 0.7);
-      backdrop-filter: blur(12px);
-      border: 1px solid #00e5ff40;
-      border-radius: 1.5rem;
-      padding: 1rem 1.8rem;
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      transition: 0.25s;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.6);
-    }
+  <br />
 
-    .stat-item:hover {
-      transform: scale(1.05);
-      border-color: #2dd4bf;
-      box-shadow: 0 0 25px #00e5ff;
-    }
+  <!-- === LOADOUT / TECH STACK === -->
+  <h2>
+    <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="50">
+    MY LOADOUT
+    <img src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif" width="50">
+  </h2>
 
-    .stat-icon {
-      font-size: 2rem;
-      color: #2dd4bf;
-      filter: drop-shadow(0 0 8px cyan);
-    }
+  <p>
+    <!-- Frontend Weapons -->
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=black" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=black" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D&labelColor=black" />
+  </p>
+  <p>
+    <!-- Backend & Tools -->
+    <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=black" />
+    <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white&labelColor=black" />
+  </p>
 
-    .demo-section {
-      margin: 2.8rem 0 2rem;
-    }
+  <br />
 
-    .section-title {
-      font-size: 1.8rem;
-      font-weight: 700;
-      margin-bottom: 1.8rem;
-      display: flex;
-      align-items: center;
-      gap: 0.8rem;
-      color: #bae6fd;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      border-left: 6px solid #06b6d4;
-      padding-left: 1.5rem;
-      text-shadow: 0 0 10px #38bdf8;
-    }
+  <!-- === SNEAK PEEK OF THE CODE CAVE === -->
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%">
+  
+  <h3>
+    <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+    CURRENT QUEST LOG
+    <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+  </h3>
 
-    .demo-cards {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 1.8rem;
-      justify-content: center;
-    }
+  <!-- Dynamic Quotes / Activity -->
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&bg_color=0D1117&border_color=FF4444" />
+  
+  <p>
+    <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=PROFILE+VISITORS+IN+THE+FOG&color=red&style=for-the-badge" />
+  </p>
 
-    .demo-card {
-      background: linear-gradient(145deg, #0b1a2f, #030c17);
-      border: 1px solid rgba(0, 255, 200, 0.5);
-      border-radius: 2rem 0.5rem 2rem 0.5rem;
-      padding: 1.8rem 1.5rem;
-      flex: 1 1 250px;
-      min-width: 220px;
-      backdrop-filter: blur(10px);
-      position: relative;
-      transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
-      box-shadow: 0 12px 28px rgba(0,0,0,0.7), inset 0 0 25px rgba(0,180,216,0.2);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
+  <!-- Footer Easter Egg -->
+  <details>
+    <summary><b>🎮 CLICK FOR EASTER EGG</b></summary>
+    <br />
+    <pre>
+      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣤⣤⣤⣤⣤⣤⣤⣤⣤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀⠀⠀⠀⠀⠀
+      ⠀⠀⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀⠀⠀
+      ⠀⠀⣠⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡀⠀
+      ⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡀
+      ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+      ⠈⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉⠉
+      GAME OVER? NEVER. PRESS START TO CONTINUE.
+    </pre>
+  </details>
 
-    .demo-card:hover {
-      transform: translateY(-10px) scale(1.02);
-      border-color: #f0e68c;
-      box-shadow: 0 0 40px #ffd966, 0 20px 30px black;
-    }
-
-    .game-icon {
-      font-size: 3.2rem;
-      margin-bottom: 1rem;
-      filter: drop-shadow(0 0 12px currentColor);
-    }
-
-    .demo-card h3 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: #facc15;
-      text-shadow: 0 0 15px #fbbf24;
-      margin: 0.5rem 0;
-    }
-
-    .demo-card p {
-      color: #cbd5e1;
-      margin: 0.8rem 0 1.5rem;
-      font-size: 0.95rem;
-    }
-
-    .demo-link {
-      background: #0f1a2b;
-      border: 1px solid #2dd4bf;
-      padding: 0.6rem 1.8rem;
-      border-radius: 3rem;
-      color: #bae6fd;
-      font-weight: bold;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      transition: 0.25s;
-      letter-spacing: 0.5px;
-      margin-top: auto;
-      background: rgba(0, 229, 255, 0.1);
-    }
-
-    .demo-link:hover {
-      background: #06b6d4;
-      color: #020617;
-      border-color: #facc15;
-      box-shadow: 0 0 30px #fbbf24;
-      font-weight: 800;
-    }
-
-    .footer-note {
-      margin-top: 2.8rem;
-      text-align: center;
-      font-size: 1rem;
-      color: #94a3b8;
-      display: flex;
-      justify-content: center;
-      gap: 1.5rem;
-      flex-wrap: wrap;
-      border-top: 1px dashed #2dd4bf;
-      padding-top: 2rem;
-    }
-
-    .glitch-text {
-      animation: textFlicker 1.8s infinite alternate;
-    }
-
-    @keyframes textFlicker {
-      0% { opacity: 1; text-shadow: 0 0 8px cyan; }
-      50% { opacity: 0.9; text-shadow: 0 0 18px #f0e68c; }
-      100% { opacity: 1; text-shadow: 0 0 12px #06b6d4; }
-    }
-
-    @media (max-width: 650px) {
-      .profile-card {
-        padding: 1.8rem;
-      }
-      .title h1 {
-        font-size: 2rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="profile-card">
-    
-    <!-- Header with gamer identity -->
-    <div class="header">
-      <div class="title">
-        <h1>⚡ VENOM_X/WebDev</h1>
-        <div class="subtitle">
-          <i class="fas fa-gamepad"></i> <span>Gaming & Esports Architect</span>
-          <i class="fas fa-code"></i> <span>Full-Stack</span>
-        </div>
-      </div>
-      <div class="level-badge">
-        <i class="fas fa-crown"></i> LVL. 99 <i class="fas fa-star"></i>
-      </div>
-    </div>
-
-    <!-- Stats / skills showcase -->
-    <div class="stats-grid">
-      <div class="stat-item">
-        <i class="fas fa-rocket stat-icon"></i>
-        <div><strong>5+</strong><br><small>Years PvP</small></div>
-      </div>
-      <div class="stat-item">
-        <i class="fas fa-globe stat-icon"></i>
-        <div><strong>20+</strong><br><small>Sites Deployed</small></div>
-      </div>
-      <div class="stat-item">
-        <i class="fas fa-trophy stat-icon"></i>
-        <div><strong>Esports</strong><br><small>Specialist</small></div>
-      </div>
-    </div>
-
-    <!-- Demo sites section with game animations -->
-    <div class="demo-section">
-      <div class="section-title">
-        <i class="fas fa-ghost"></i> FEATURED QUESTS <i class="fas fa-sword"></i>
-      </div>
-      <div class="demo-cards">
-        
-        <!-- Dead by Daylight Fan Made -->
-        <div class="demo-card">
-          <div class="game-icon" style="color: #ff4d4d;">
-            <i class="fas fa-skull"></i>
-          </div>
-          <h3>DEAD BY DAYLIGHT</h3>
-          <p><i class="fas fa-fan"></i> Fan Made Hub · Killers & Survivors</p>
-          <a href="https://deadbydaylight-fanmade.example.com" target="_blank" rel="noopener" class="demo-link">
-            <i class="fas fa-external-link-alt"></i> ENTER FOG
-          </a>
-          <div style="margin-top: 0.8rem; font-size:0.8rem; color:#86efac;">
-            <i class="fas fa-check-circle"></i> Interactive bloodweb
-          </div>
-        </div>
-
-        <!-- Rody Gamer Blog -->
-        <div class="demo-card">
-          <div class="game-icon" style="color: #fbbf24;">
-            <i class="fas fa-blog"></i>
-          </div>
-          <h3>RODY GAMER</h3>
-          <p><i class="fas fa-pen-fancy"></i> Personal Gaming Blog · Reviews</p>
-          <a href="https://rodygamer-blog.example.com" target="_blank" rel="noopener" class="demo-link">
-            <i class="fas fa-external-link-alt"></i> READ BLOG
-          </a>
-          <div style="margin-top: 0.8rem; font-size:0.8rem; color:#86efac;">
-            <i class="fas fa-fire"></i> Latest: Elden Ring DLC
-          </div>
-        </div>
-
-        <!-- Esports Blog -->
-        <div class="demo-card">
-          <div class="game-icon" style="color: #38bdf8;">
-            <i class="fas fa-trophy"></i>
-          </div>
-          <h3>ESPORTS ARENA</h3>
-          <p><i class="fas fa-newspaper"></i> Competitive News & Analysis</p>
-          <a href="https://esportsblog-pro.example.com" target="_blank" rel="noopener" class="demo-link">
-            <i class="fas fa-external-link-alt"></i> VIEW COVERAGE
-          </a>
-          <div style="margin-top: 0.8rem; font-size:0.8rem; color:#86efac;">
-            <i class="fas fa-headset"></i> Live tournament updates
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Extra gaming flare / skill tags -->
-    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 2rem 0 0.5rem;">
-      <span style="background:#0f1a2b; padding:0.4rem 1.4rem; border-radius: 20px; border:1px solid cyan;"><i class="fab fa-react"></i> React</span>
-      <span style="background:#0f1a2b; padding:0.4rem 1.4rem; border-radius: 20px; border:1px solid cyan;"><i class="fab fa-node-js"></i> Node.js</span>
-      <span style="background:#0f1a2b; padding:0.4rem 1.4rem; border-radius: 20px; border:1px solid cyan;"><i class="fas fa-database"></i> MongoDB</span>
-      <span style="background:#0f1a2b; padding:0.4rem 1.4rem; border-radius: 20px; border:1px solid cyan;"><i class="fab fa-unity"></i> Three.js</span>
-    </div>
-
-    <!-- Footer with animated glitch text -->
-    <div class="footer-note">
-      <span class="glitch-text"><i class="fas fa-terminal"></i> READY FOR BATTLE</span>
-      <span><i class="fas fa-map-pin"></i> GITHUB/PROFILE · GAMING FIRST</span>
-      <span><i class="fas fa-headphones"></i> COMMISSIONS OPEN</span>
-    </div>
-
-    <!-- subtle animated particles (pure css illusion) -->
-    <div style="position: absolute; top: 15px; right: 25px; font-size: 0.9rem; opacity:0.7; animation: spinSlow 10s linear infinite;">
-      <i class="fas fa-circle" style="color:#2dd4bf;"></i> <i class="fas fa-circle" style="color:#facc15; margin-left:5px;"></i>
-    </div>
-    @keyframes spinSlow {
-      from {transform: rotate(0deg);}
-      to {transform: rotate(360deg);}
-    }
-  </div>
-</body>
-</html>
+  <br />
+  <p>
+    <i>"It's dangerous to go alone! Take this."</i> ⚔️ - <b>Let's build legendary gaming platforms together.</b>
+  </p>
+</div>

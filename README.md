@@ -117,7 +117,7 @@
         <br />
         <br />
         <p align="center">
-          <a href="https://esportsinsider.blog" target="_blank">
+          <a href="https://esports-new.onrender.com" target="_blank">
             <img src="https://img.shields.io/badge/ESPORTS-INSIDER_BLOG-%23FFAA00?style=for-the-badge&logo=eslgaming&logoColor=black" />
           </a>
         </p>

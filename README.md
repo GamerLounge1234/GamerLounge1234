@@ -69,8 +69,7 @@
         </a>
       </td>
       
-      <!-- Demo 2: Rody Gamer Blog -->
-      <td align="center" width="33%">
+\      <td align="center" width="33%">
         <a href="YOUR_RODY_GAMER_BLOG_LINK" target="_blank">
           <img src="https://i.imgur.com/placeholder_rody.png" width="300" style="border: 2px solid #ff7700; border-radius: 15px; box-shadow: 0 0 20px #ff7700;" />
         </a>
